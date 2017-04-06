@@ -1,4 +1,9 @@
+@font-face {
+    font-family: Gothic;
+    src: url('fonts/DidactGothic-Regular.ttf');
+}
 body {
+  font-family: Gothic;
   margin: 0px;
   padding: 0px;
 }
