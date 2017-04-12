@@ -7,6 +7,9 @@ body {
   margin: 0px;
   padding: 0px;
 }
+.clear {
+  clear: both;
+}
 .wrapper {
   width: 1000px;
   margin: 0 auto;
@@ -58,7 +61,7 @@ body {
    box-shadow: 0px 2px 0px #be1e51;
    border-radius: 2px;
    margin-left:5px;
-   
+
 }
 
 /*THIS IS A NAVIGATION COUNTAINER*/
@@ -84,7 +87,7 @@ body {
 }
 .top-navigation ul li a:hover {
     border-bottom: 1px solid #ea243b;
-    
+
 }
 .top-navigation ul li:not(:first-child) {
     padding-left: 30px;
@@ -165,13 +168,105 @@ body {
 }
 .information {
   float: right;
-  width: 735px;
+  height: 250px;
+  margin-left: 42px;
+  width: 737px;
 }
-.middle_news_button a {
-  background-color: #6eb005;
+.name-section {
+
+  width: 100%;
+  border-bottom: ridge 1px #e5e5e5;
+}
+.name-section h1 {
+  float: left;
+  margin: 0;
+  margin-top: 14px;
+  width: 600px;
+}
+.name-section a {
+  float: right;
+  padding-top: 34px;
   text-decoration: none;
-  color: #ffffff;
+  color: #ec2d6a;
+}
+.date-section {
+  border-bottom: ridge 1px #e5e5e5;
+}
+.time_title {
+  float: left;
+  vertical-align: middle;
+
+}
+.time_title img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.time_title p span {
+  margin-right: 10px;
+}
+.time_title p {
+  float: left;
+  text-align: left;
+  border-right: ridge 1px #e5e5e5;
+  margin-right: 10px;
+
+}
+.time_title h5 {
+  float: right;
+  margin-top: 26px;
+}
+.button-title {
+  float: right;
+}
+.button-title a {
+  height:33px;
+  min-width:152px;
+  line-height:33px;
   text-align: center;
-  padding: 15px 32px;
+  color: white;
+  background: #6eb005;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
   box-shadow: 0px 2px 0px #5a8d09;
+  border-radius: 2px;
+  margin-left:5px;
+  margin-top: 18px;
+}
+.list-section p {
+  float: left;
+}
+.list-section p a {
+  text-decoration: none;
+  color: #ec2d6a;
+}
+.list-section h3 {
+  float: right;
+}
+
+/*THIS IS PAGINATION COUNTAINER*/
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 10px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    background-color: #f2f2f2;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.pagination a.active {
+    background-color: #c313b4;
+    color: white;
+}
+.pagination a:hover:not(.active) {
+  background-color: #c313b4;
+}
+
+/*This is Footer container*/
+
+footer {
+
 }
