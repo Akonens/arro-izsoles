@@ -47,6 +47,9 @@ body {
     margin-top:15px;
     float: right;
 }
+.right-buttons a:hover {
+  background-color: #be1e51;
+}
 .right-buttons a {
    height:33px;
    min-width:152px;
@@ -177,6 +180,9 @@ body {
   border-bottom: ridge 1px #e5e5e5;
   padding-bottom:5px;
 }
+.name-section a:hover {
+  color: #c313b4;
+}
 .name-section h1 {
   float: left;
   margin: 0px;
@@ -212,7 +218,7 @@ body {
   border-right: 1px solid #e5e5e5;
   margin-right: 10px;
   padding: 10px;
-  
+
   display: inline;
 
 }
@@ -239,6 +245,9 @@ body {
   cursor: pointer;
   box-shadow: 0px 2px 0px #5a8d09;
   border-radius: 2px;
+}
+.button-title a:hover {
+  background-color: #5a8d09;
 }
 .list-section {
     margin-top: 5px;
@@ -277,6 +286,7 @@ body {
 .pagination a:hover:not(.active) {
   background-color: #c313b4;
 }
+.pagination a:hover:not(.active) {color: #ffffff;}
 
 /*This is Footer container*/
 
