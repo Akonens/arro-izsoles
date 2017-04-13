@@ -164,7 +164,7 @@ body {
 .news_logo {
   float: left;
   padding: 28px 4px 27px 5px;
-  border-style: ridge;
+  border: 1px solid #e8e8e8;
 }
 .information {
   float: right;
@@ -182,12 +182,14 @@ body {
   margin: 0;
   margin-top: 14px;
   width: 600px;
+  margin-bottom: 3px;
 }
 .name-section a {
   float: right;
   padding-top: 34px;
   text-decoration: none;
   color: #ec2d6a;
+  margin-bottom: 3px;
 }
 .date-section {
   border-bottom: ridge 1px #e5e5e5;
@@ -213,7 +215,9 @@ body {
 }
 .time_title h5 {
   float: right;
-  margin-top: 26px;
+  margin-top: 25px;
+  color: #ec2d43;
+  font-size: 16px;
 }
 .button-title {
   float: right;
@@ -236,6 +240,7 @@ body {
 }
 .list-section p {
   float: left;
+  margin-top: 5px;
 }
 .list-section p a {
   text-decoration: none;
@@ -243,10 +248,13 @@ body {
 }
 .list-section h3 {
   float: right;
+  margin-top: 5px;
 }
 
 /*THIS IS PAGINATION COUNTAINER*/
-
+.pagination {
+  margin-bottom: 105px;
+}
 .pagination a {
     color: black;
     float: left;
@@ -268,5 +276,43 @@ body {
 /*This is Footer container*/
 
 footer {
+  height: 50px;
+  background-color: #adadad;
+  margin-bottom: 50px;
+}
+.title-text {
+  float: left;
+}
+.main-width {
+  width: 1000px;
+  margin: 0 auto;
 
+}
+.title-text {
+  width: 333px;
+  position: relative;
+}
+.title-text a {
+  text-align: left;
+  vertical-align: middle;
+  line-height: 50px;
+  margin-right: 14px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.title-text p {
+  text-align: center;
+  line-height: 50px;
+  margin: 0;
+  color: #ffffff;
+}
+.title-text h3 {
+  text-align: right;
+  line-height: 50px;
+  margin: 0;
+  color: #ffffff;
+}
+.title-text h3 img {
+  position: absolute;
+  top: -22px;
 }
