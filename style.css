@@ -169,35 +169,35 @@ body {
 .information {
   float: right;
   height: 250px;
-  margin-left: 42px;
   width: 737px;
+  margin-top:30px;
 }
 .name-section {
-
   width: 100%;
   border-bottom: ridge 1px #e5e5e5;
+  padding-bottom:5px;
 }
 .name-section h1 {
   float: left;
-  margin: 0;
-  margin-top: 14px;
+  margin: 0px;
   width: 600px;
-  margin-bottom: 3px;
+  font-size:24px;
+  line-height: 24px;
 }
 .name-section a {
+  font-size:16px;
+  line-height: 24px;
   float: right;
-  padding-top: 34px;
   text-decoration: none;
   color: #ec2d6a;
-  margin-bottom: 3px;
 }
 .date-section {
   border-bottom: ridge 1px #e5e5e5;
 }
 .time_title {
-  float: left;
   vertical-align: middle;
-
+  margin:20px 0px;
+  float:left;
 }
 .time_title img {
   vertical-align: middle;
@@ -207,40 +207,45 @@ body {
   margin-right: 10px;
 }
 .time_title p {
-  float: left;
+  max-width:245px;
   text-align: left;
-  border-right: ridge 1px #e5e5e5;
+  border-right: 1px solid #e5e5e5;
   margin-right: 10px;
+  padding: 10px;
+  
+  display: inline;
 
 }
 .time_title h5 {
-  float: right;
-  margin-top: 25px;
   color: #ec2d43;
-  font-size: 16px;
+  font-size: 25px;
+  display: inline;
 }
 .button-title {
   float: right;
+  margin:20px 0px;
 }
 .button-title a {
-  height:33px;
-  min-width:152px;
-  line-height:33px;
+  height:44px;
+  min-width:187px;
+  line-height:44px;
   text-align: center;
   color: white;
   background: #6eb005;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 15px;;
+  font-weight: bold;
   cursor: pointer;
   box-shadow: 0px 2px 0px #5a8d09;
   border-radius: 2px;
-  margin-left:5px;
-  margin-top: 18px;
+}
+.list-section {
+    margin-top: 5px;
 }
 .list-section p {
   float: left;
-  margin-top: 5px;
+  margin:0px;
 }
 .list-section p a {
   text-decoration: none;
@@ -248,7 +253,7 @@ body {
 }
 .list-section h3 {
   float: right;
-  margin-top: 5px;
+  margin:0px;
 }
 
 /*THIS IS PAGINATION COUNTAINER*/
@@ -315,4 +320,8 @@ footer {
 .title-text h3 img {
   position: absolute;
   top: -22px;
+}
+.title-text a:hover {
+    color:#c313b4;
+    cursor: pointer;
 }
