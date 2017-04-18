@@ -105,3 +105,8 @@ nav ul li:not(:first-child) {
 .banner {
   padding-top: 30px;
 }
+.title-text {
+  border-bottom: 12px solid #e5e5e5;
+  margin-bottom: 40px;
+  padding-top: 2px;
+}
