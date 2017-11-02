@@ -419,3 +419,17 @@ footer {
 .reg-login-input p {
   color:#ef5983
 }
+
+/*uzvaretajs container*/
+
+.uzvaretajs-container {
+  display: grid;
+  grid-template-columns: repeat(1fr 1fr);
+}
+
+.left-column {
+  background-color: red;
+}
+.right-column {
+  background-color: blue;
+}
