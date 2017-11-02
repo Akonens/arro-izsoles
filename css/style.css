@@ -424,12 +424,14 @@ footer {
 
 .uzvaretajs-container {
   display: grid;
-  grid-template-columns: repeat(1fr 1fr);
+  grid-template-columns: 1fr 1fr;
 }
 
 .left-column {
   background-color: red;
+  height: 200px;
 }
 .right-column {
   background-color: blue;
+  height: 200px;
 }
