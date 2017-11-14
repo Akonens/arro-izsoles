@@ -97,8 +97,6 @@ body {
 }
 .wrapper-container {
     padding-top:180px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
 }
 
 /*This is NOTIFICATION CONTAINER*/
@@ -426,11 +424,10 @@ footer {
 
 .container {
   display: grid;
-  grid-template-columns: 100% 100%;
+  grid-template-columns: 50% 50%;
 }
 
 .left-column {
-  display: grid;
 }
 
 .title-line {
@@ -453,10 +450,6 @@ footer {
 }
 
 .right-column {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  height: 80px;
-
 }
 
 .timekeeper {
@@ -464,17 +457,19 @@ footer {
   grid-template-columns: 1fr 1fr;
   min-height: 78px;
 }
-.clock-left {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.clock-left img {
+  vertical-align: middle;
+}
+.clock-left p {
+  display: inline;
+  padding-left: 10px;
 }
 .timer-right {
   border-left: 1px solid #e5e5e5;
 }
 .gift-line {
   display: grid;
+  grid-template-areas: 'as asd';
   border-top: 1px solid #e5e5e5;
   background-color: pink;
-  grid-template-columns: ;
-  grid-template-rows: ;
 }
