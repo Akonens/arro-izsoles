@@ -455,6 +455,8 @@ footer {
 .right-column {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
+  height: 80px;
+
 }
 
 .timekeeper {
@@ -465,9 +467,14 @@ footer {
 .clock-left {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: pink;
 }
 .timer-right {
-  background-color: yellow;
   border-left: 1px solid #e5e5e5;
+}
+.gift-line {
+  display: grid;
+  border-top: 1px solid #e5e5e5;
+  background-color: pink;
+  grid-template-columns: ;
+  grid-template-rows: ;
 }
