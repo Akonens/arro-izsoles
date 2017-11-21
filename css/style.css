@@ -342,6 +342,9 @@ footer {
 .container {
 
 }
+.poga-pink {
+  padding-top: 25px;
+}
 .poga-pink2 {
     height: 33px;
     min-width: 152px;
@@ -356,12 +359,18 @@ footer {
     box-shadow: 0px 2px 0px #2d4dce;
     border-radius: 2px;
     padding: 0px 10px 0 10px;
+
 }
 .select-gender {
   grid-area: select-gender;
   width: 300px;
 }
+.reg-title {
+  font-size: 19px;
+  font-family: "Century Gothic";
+  font-weight: bold;
 
+}
 .reg-inputs {
   grid-area: reg-inputs ;
   width: 400px;
@@ -387,7 +396,7 @@ footer {
   min-width: 175px;
   border: 1px solid #dcdcdc;
 }
-.reg-inputs input {
+.reg-inputs input[type='text'] {
   padding: 12px 37px;
   margin: 8px 0;
   min-width: 325px;
@@ -441,6 +450,13 @@ footer {
 .teksts {
   justify-self: end;
 }
+.radio-botton {
+  display: block;
+  line-height: 20px;
+  font-family: "Century Gothic";
+  font-size: 14px;
+
+}
 /*uzvaretajs container*/
 
 .container-uzvaretajs {
@@ -483,6 +499,7 @@ footer {
   font-size: 13px;
   line-height: 20px;
 }
+
 
 .right-column {
 }
@@ -583,18 +600,27 @@ footer {
   margin-bottom: 20px;
 }
 .img-price {
-  position: relative;
+  background-image: url("../img/w.png");
+  height: 132px;
+  width: 132px;
+  font-size: 13px;
 
-    color: white;
 }
 .poga-pink {
   grid-column-start: 4;
 }
-.text-img {
-  position: absolute;
-  top: 32px;
+.img-price p {
+  color: white;
+  padding-top: 30px;
+  padding-left: 15px;
+
 }
-.text-img p span {
+.img-price p span {
   font-size: 35px;
-  color: #ffffff;
+}
+.tests {
+
+}
+.tests2 {
+  min-width: 300px;
 }
