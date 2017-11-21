@@ -369,8 +369,16 @@ footer {
   font-size: 19px;
   font-family: "Century Gothic";
   font-weight: bold;
-
 }
+.p-finish-title {
+  font-size: 13px;
+  font-family: "Century Gothic";
+  color: #ef5983;
+}
+.tests span {
+  color: #ef5983;
+}
+
 .reg-inputs {
   grid-area: reg-inputs ;
   width: 400px;
