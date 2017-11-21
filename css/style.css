@@ -476,12 +476,22 @@ footer {
 }
 /*uzvaretajs container*/
 
+.wrapper-container-arro {
+    padding-top: 80px;
+}
 .container-uzvaretajs {
   display: grid;
   grid-template-columns: 50% 50%;
 }
-
+.banner_arro {
+  background-image: url(../img/Untitled-3.jpg);
+  height: 81px;
+  width: 1000px;
+}
 .left-column {
+}
+.arro-bann {
+  margin-bottom: 25px;
 }
 
 .title-line {
