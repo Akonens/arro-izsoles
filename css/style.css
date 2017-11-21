@@ -126,7 +126,16 @@ body {
 }
 /*This is BANNER CONTAINER*/
 .banner {
-  padding-top: 30px;
+  background-image: url(../img/Untitled-3.jpg);
+  height: 81px;
+  width: 1000px;
+}
+.banner p {
+  font-size: 45.59px;
+  color: #ffffff;
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
 }
 /*This is CONTAINER CONTAINER*/
 
