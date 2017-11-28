@@ -129,6 +129,7 @@ body {
   background-image: url(../img/Untitled-3.jpg);
   height: 81px;
   width: 1000px;
+  display: flex;
 }
 .banner p {
   font-size: 45.59px;
@@ -492,6 +493,7 @@ footer {
 }
 .arro-bann {
   margin-bottom: 25px;
+  display: flex;
 }
 
 .title-line {
@@ -536,7 +538,7 @@ footer {
   grid-template-columns: 1fr 1fr;
   min-height: 78px;
   padding-bottom: 10px;
-  
+
 }
 .clock-left img {
   vertical-align: middle;
