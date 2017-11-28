@@ -536,19 +536,24 @@ footer {
   grid-template-columns: 1fr 1fr;
   min-height: 78px;
   padding-bottom: 10px;
-  max-height: 62px;
+  
 }
 .clock-left img {
   vertical-align: middle;
+  padding-top: 6px;
+}
+.clock-left {
+  padding-top: 6px;
 }
 .clock-left p {
   display: inline;
   padding-left: 10px;
+  padding-top: 12px;
 }
 .timer-right p {
-  padding-top: 10px;
+
   padding-left: 10px;
-  vertical-align: middle;
+
   font-family: 'Rajdhani', sans-serif;
   font-size: 28px;
 }
