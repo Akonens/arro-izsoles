@@ -22,7 +22,19 @@ body {
     top:0px;
     left:0px;
     background-color:white;
+    z-index: 9;
 }
+.reg-checkbox-label {
+  float: left;
+  width: 380px;
+}
+.reg-checkbox input {
+  float: left;
+}
+.reg-checkbox {
+  margin-bottom: 10px;
+}
+
 .main-width {
     width:1000px;
     margin:0px auto;
